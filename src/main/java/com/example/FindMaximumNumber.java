@@ -23,4 +23,24 @@ public class FindMaximumNumber {
             System.out.println("All Values are Equal");
         }
     }
+    void findMaxFloat(Float a,Float b,Float c){
+
+        if (a.compareTo(b) > 0 && a.compareTo(c) > 0)
+        {
+            System.out.println("D is Maximum Value\n");
+        }
+        else if (b.compareTo(c) > 0 && b.compareTo(a) > 0)
+        {
+            System.out.println("E is Maximum Value\n");
+        }
+        else if (c.compareTo(a) > 0 && c.compareTo(b) > 0)
+        {
+            System.out.println("F is Maximum Value\n");
+        }
+        else
+        {
+            System.out.println("All Values are Equal\n");
+        }
+    }
+
 }
