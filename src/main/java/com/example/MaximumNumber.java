@@ -29,5 +29,15 @@ public class MaximumNumber extends FindMaximumNumber{
         Float f = scanner.nextFloat();
         //calling FindMaximumNumber function using object to calculate the Maximum Integer
         find.findMaxFloat(d , e , f);
+
+        //String Part
+        System.out.println("Enter String G");
+        String g = scanner.next();
+        System.out.println("Enter String H");
+        String h = scanner.next();
+        System.out.println("Enter String I");
+        String i = scanner.next();
+        //calling findMaxString function in class FindMaximumNumber using object to calculate the Maximum String
+        find.findMaxString(g , h , i);
     }
 }

@@ -42,5 +42,27 @@ public class FindMaximumNumber {
             System.out.println("All Values are Equal\n");
         }
     }
+    /*
+   Function to Find the Maximum String Value b/w  g, h  and i
+    */
+    void findMaxString(String a , String b ,String c)
+    {
+        if (a.compareTo(b) > 0 && a.compareTo(c) > 0)
+        {
+            System.out.println("G is Maximum Value\n");
+        }
+        else if (b.compareTo(c) > 0 && b.compareTo(a) > 0)
+        {
+            System.out.println("H is Maximum Value\n");
+        }
+        else if (c.compareTo(a) > 0 && c.compareTo(b) > 0)
+        {
+            System.out.println("I is Maximum Value\n");
+        }
+        else
+        {
+            System.out.println("All Values are Equal\n");
+        }
+    }
 
 }
